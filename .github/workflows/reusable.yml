@@ -1,11 +1,11 @@
-name: Reusable Workflow
+name: Reusable Workflow called wf
 on:
   workflow_call:
     inputs:
       name:
         description: "Input description"
         type: string
-        default: "Ali"
+        default: "Bhawesh"
         required: false
     secrets:
       access-token:
